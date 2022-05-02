@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/glide.core.css" />
+    <link rel="stylesheet" href="assets/glide.theme.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Netflix Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="#" class="logo"
+            ><img
+              src="assets/images/logoNetflix-removebg-preview.png"
+              alt="Logo Netflix vermelho"
+          /></a>
+          <a href="#">Início</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Bombando</a>
+          <a href="#">Minha lista</a>
+          <a class="navShow" href="#"
+            >Navegar&nbsp;<i class="fa-solid fa-sort-down"></i
+          ></a>
+        </nav>
+        <div class="rightNav">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#">Infantil</a>
+          <a href="#"><i class="fa-solid fa-bell"></i></a>
+          <a href="#"
+            ><i class="fa-solid fa-users"></i>&nbsp;<i
+              class="fa-solid fa-sort-down"
+            ></i
+          ></a>
+        </div>
+      </header>
+      <main class="text">
+        <div class="wrapper">
+          <h2><span>Séries&nbsp;></span>&nbsp;Novelas</h2>
+          <div class="title">
+            <h2>Café&nbsp;</h2>
+            <div class="titleCompl">
+              <p>com aroma</p>
+              <p class="manual">de mulher</p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Este remake da novela clássica de 1994 conta a história de amor
+              entre a trabalhadora rural Gaviota e Sebastián, um herdeiro da
+              aristocracia cafeeira.
+            </p>
+          </div>
+          <div class="buttons">
+            <div class="button">
+              <a href="#" class="play"
+                ><i class="fa-solid fa-play"></i> Assistir
+              </a>
+              <a class="info" href="#"
+                ><i class="fa-solid fa-circle-info"></i> Mais Informações</a
+              >
+            </div>
+            <div class="icons">
+              <a href="#"><i class="fa-solid fa-volume-xmark"></i></a>
+              <a href="#">|</a>
+              <a href="#" class="red">16</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="slider">
+      <h3>Filmes</h3>
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/5P8SmMzSNYikXpxil6BYzJ16611.jpg"
+                alt="Filme Batman"
+              />
+            </li>
+            <li class="glide__slide">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg"
+                alt="Filme Uncharted: Fora do Mapa"
+              />
+            </li>
+            <li class="glide__slide">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vDvtCVvzOdxjBctSH3fyu1wCkuX.jpg"
+                alt="Filme 9 Bullets"
+              />
+            </li>
+            <li class="glide__slide">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg"
+                alt="Filme Homem-Aranha: Sem Volta Para Casa"
+              />
+            </li>
+            <li class="glide__slide">
+              <img
+                src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/ndCSoasjIZAMMDIuMxuGnNWu4DU.jpg"
+                alt="Filme Doutor Estranho no Multiverso da Loucura"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            prev
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            next
+          </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+          <button class="glide__bullet" data-glide-dir="=3"></button>
+          <button class="glide__bullet" data-glide-dir="=4"></button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
