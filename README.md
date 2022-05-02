@@ -16,3 +16,5 @@ Clone da tela inicial do Netflix.
 - GIF
 
 ![CloneNetflix](assets/images/2022-05-02%2017-09-01.gif)
+
+### [Link da página publicada](https://arnongp.github.io/cloneNetflix/)
